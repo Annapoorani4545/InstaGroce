@@ -12,6 +12,7 @@ following sections, we'll delve into the intricacies of the underlying models an
 design.
 
 
+
 Models:
 
 • User Model: The User model serves as a representation of registered users within the 
@@ -29,6 +30,7 @@ categorization with a single 'name' attribute.
 the shopping cart. It establishes connections with both the User and Product models via 
 foreign keys, representing the user who added the item and the specific product being 
 included in the cart.
+
 
 
 System Design:
@@ -58,6 +60,7 @@ filter products based on criteria like category, max budget, and date range for 
 shopping experience.
 
 
+
 Key Features:
 
 ✓ User Registration and Authentication: This feature enables users to securely create accounts 
@@ -84,6 +87,7 @@ sections of the app.
 ✓ Utilization of Flask Extensions for Form Handling and URL Routing: Flask extensions are 
 employed to streamline form creation and validation, as well as manage URL routing, 
 facilitating efficient and effective development.
+
 
 
 Conclusion:
